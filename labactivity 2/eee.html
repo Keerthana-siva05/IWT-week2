@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book Catalogue</title>
+    <style>
+        body{
+            margin:10px;
+            font-family:Arial,sans-serif;
+            background-color:#f4f4f4;
+        }
+        .catalogue {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow:0 2px 5px rgba(0,0,0,0.15);
+            background-color:#fff;
+            margin-top:20px;
+        }
+        .catalogue th, .catalogue td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .catalogue th{
+            background-color:#f2f2f2;
+            fond-weight:bold;
+        }
+        .catalogue td img{
+            display:block;
+            margin:0 auto;
+        }
+        .book-image {
+            width: 100px;
+        }
+        .book-details {
+            width: 170px;
+            
+        }
+        .price {
+            width: 100px;
+            text-align: center;
+        }
+        .add-to-cart {
+            width: 150px;
+            text-align: center;
+
+        }
+        .add-to-cart button {
+            padding: 5px 10px;
+            background-color:#0b0b45;
+            color: white;
+            border: none;
+            border-radius:4px;
+            cursor: pointer;
+        }
+        .add-to-cart button:hover {
+            background-color: #45a049;
+        }
+        .catalogue tr:nth-child(even){
+            background-color:#f9f9f9;
+        }
+        .catalogue tr:hover{
+            background-color:#f1f1f1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table class="catalogue">
+    <thead>
+        <tr>
+     <th class="book-image">Books</th>
+        <th class="book-details">Details</th>
+        <th class="price">Price</th>
+        <th class="add-to-cart">Add to Cart</th>
+    </tr>
+    </thead>
+    
+    <tr>
+        <td class="book-image"><img src="eee1.jpeg" alt="Book 1" width="100" height="100"></td>
+        <td class="book-details">Book: Electrical Engineering <br>Author: V.Venkatesh<br>Publication: NA</td>
+        <td class="price">Rs.305</td>
+        <td class="add-to-cart"><button>Add to Cart</button></td>
+    </tr>
+    <tr>
+        <td class="book-image"><img src="eee2.png" alt="Book 2" width="100" height="100"></td>
+        <td class="book-details">Book: Electromagnetic Theory<br>Author: Dr.C.Senthilkumar<br>Publication: AR</td>
+        <td class="price">Rs.280</td>
+        <td class="add-to-cart"><button>Add to Cart</button></td>
+    </tr>
+    <tr>
+        <td class="book-image"><img src="eee3.WEBP" alt="Book 3" width="100" height="100"></td>
+        <td class="book-details">Book: Fundamentals Of Electrical Engineering & Electronics<br>Author: S.K.Sahdew<br>Publication: Dhanpat Rai</td>
+        <td class="price">Rs.495</td>
+        <td class="add-to-cart"><button>Add to Cart</button></td>
+    </tr>
+    <tr>
+        <td class="book-image"><img src="eee4.jpeg" alt="Book 4" width="100" height="100"></td>
+        <td class="book-details">Book: Computer Aided Electrical Drawing<br>Author: M.Yogesh<br>Publication: PHI</td>
+        <td class="price">Rs.400</td>
+        <td class="add-to-cart"><button>Add to Cart</button></td>
+    </tr>
+</table>
+
+</body>
+</html>
